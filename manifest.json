@@ -1,0 +1,10 @@
+{
+    "name": "Operation Quiet",
+    "description": "shut",
+    "version": "1.0.0",
+    "manifest_version": 2,
+    "content_scripts": [{
+        "js": ["content.js"],
+        "matches": ["https://meet.google.com/*"]
+    }]
+  }
